@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.css']
 })
 export class NavComp {
+  // public userLoggedIn: boolean = true;
+
+  // public user: User = {
+  //   firstname: "John",
+  //   lastname: "Doe"
+  //}
 }

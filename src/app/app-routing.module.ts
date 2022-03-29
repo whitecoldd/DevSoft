@@ -5,7 +5,7 @@ import { NavComp } from 'src/comps/nav/nav';
 
 const routes: Routes = [
   { path: '', component: HomePage },
-  { path: 'nav', component: NavComp }
+  { path: 'nav', component: NavComp },
 ];
 
 @NgModule({

@@ -1,0 +1,47 @@
+header{
+    background-image:  url(./main.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero1{
+    display: flex;
+    justify-content: left;
+}
+
+.hero2{
+    display: flex;
+    justify-content: right;
+}
+
+.hero-low{
+    padding-top: 580px ;
+}
+
+.bttn{
+    padding: 0.75rem 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about{
+    background-color: #544949;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
