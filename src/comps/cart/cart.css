@@ -1,0 +1,9 @@
+.bttn{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    margin-bottom: 4px;
+    margin-left: 3px;
+}

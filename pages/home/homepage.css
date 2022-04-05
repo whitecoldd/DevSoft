@@ -36,12 +36,49 @@ header{
     margin-right: 10px;
 }
 
-.about{
-    background-color: #544949;
+.catalog{
+    background-image: linear-gradient(to bottom, #544949, #bda4a4);
 }
 
 h1{
     text-transform: uppercase;
+    margin-left: 150px;
+    padding-top: 75px;
+    margin-bottom: 100px;
+}
+h1::after{
+    content: " ";
+    display: block;
+    background-color: white;
+    width: 310px;
+    height: 2px;    
+
+}
+
+h2{
+    text-transform: uppercase;
     text-align: center;
-    padding-top: 50px;
+}
+
+.about{
+    background-color: #544949;
+}
+
+.us{
+    width: 350px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.aboutname{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.text{
+    margin-top: 15px;
+    margin-left: 10px;
 }
