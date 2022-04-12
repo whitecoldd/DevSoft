@@ -1,0 +1,44 @@
+<navigation></navigation>
+<header>
+    <div class="container">
+        <div class="row hero hero-low">
+            <div class="col-md-3 hero1">
+                <button class="btn btn-outline-light bttn rounded-pill"><span class="iconify icon" data-icon="lucide:coffee"></span>Espresso</button>
+            </div>
+            <div class="col-md-3 hero">
+                <button class="btn btn-outline-light bttn rounded-pill"><span class="iconify icon" data-icon="akar-icons:filter"></span>Filter Coffee</button>
+            </div>
+            <div class="col-md-3 hero2">
+                <button class="btn btn-outline-light bttn rounded-pill"><span class="iconify icon" data-icon="ic:outline-coffee-maker"></span>Accessories</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="about">
+    <h2>About us</h2>
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let about of about" class="col-md-6">
+               <div class="container us">
+                <h4 class="aboutname"><img [src] = "about.icon[0]"><p class="text">{{about.name}}</p></h4>
+                <p>{{about.description}}</p>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="catalog">
+    <h1>Coffee Catalog</h1>
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let product of products" class="col-md-4">
+                <img [src]="product.pictureUrls[0]" />
+                <p>{{product.name}}</p>
+                <h2>${{product.price}}</h2>
+                <cart></cart>
+            </div>
+        </div>
+    </div>
+</div>
