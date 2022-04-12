@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Login } from 'pages/login/login';
+import { HomeLayComp } from 'src/comps/homelay/homelay';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { Login } from 'pages/login/login';
     HomePage,
     NavComp,
     CartComp,
-    Login
+    Login,
+    HomeLayComp
   ],
   imports: [
     BrowserModule,

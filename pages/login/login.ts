@@ -7,13 +7,13 @@ import { NewUser } from 'src/models/newuser.model';
   templateUrl: './login.html',
   styleUrls: ['./login.css']
 })
-export class Login implements OnInit {
+export class Login {
+    public onSubmit(event: Event){
+      event.preventDefault();
 
-
-
-  ngOnInit(): void {
-    
-  }
+      // const username = ((event.target as HTMLFormElement).username as HTMLInputElement).value;
+      // const password = ((event.target as HTMLFormElement).password as HTMLInputElement).value;
+    }
 }
 
 
