@@ -5,6 +5,18 @@ header{
     background-size: cover;
 }
 
+div.hero-text-box {
+  position: absolute;
+  top: 97%;
+  width: auto;
+  left: 22%;
+
+}
+
+.btn-pad {
+  margin-right: 100px;
+}
+
 .hero{
     display: flex;
     justify-content: center;
@@ -37,7 +49,7 @@ header{
 }
 
 .catalog{
-    background-image: linear-gradient(to bottom, #544949, #bda4a4);
+    background-image: linear-gradient(to bottom, #7b6d6d, #e1cfcf);
 }
 
 h1{
@@ -51,7 +63,7 @@ h1::after{
     display: block;
     background-color: white;
     width: 310px;
-    height: 2px;    
+    height: 2px;
 
 }
 
@@ -60,13 +72,9 @@ h2{
     text-align: center;
 }
 
-h2{
-    margin-bottom: 20px;
-}
-
 .about{
-    padding-top: 50px;
     background-color: #544949;
+    padding: 50px;
 }
 
 .us{

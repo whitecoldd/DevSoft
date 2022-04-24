@@ -1,3 +1,55 @@
-header{
-    background-color: #544949;
+section{
+  background-image: linear-gradient(to bottom, #746666, #fff); ;
+  color: black;
+  padding: 50px;
+
+}
+.title::after {
+    content: ' ';
+    display: block;
+    background-color: #463e3e;
+    width: 80px;
+    height: 3px;
+    margin: 10px auto 0 auto;
+
+}
+
+.forms {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.link {
+  color: #463e3e;
+  text-decoration: none;
+}
+
+
+.sign:hover{
+  background-color:rgb(54, 54, 54);
+  border-color: rgb(54, 54, 54);
+}
+input {
+  font-size: 22px;
+}
+
+.createAcc  {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.createAcc:hover{
+  color: #fff;
+}
+
+
+label {
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.788);
+
+}
+
+.sect_title {
+  text-align: center;
 }

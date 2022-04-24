@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 import { Member } from 'src/models/member.model';
 import { NewUser } from 'src/models/newuser.model';
@@ -15,5 +16,3 @@ export class Login {
       // const password = ((event.target as HTMLFormElement).password as HTMLInputElement).value;
     }
 }
-
-
